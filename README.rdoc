@@ -1,6 +1,19 @@
 = foreman-epel_release
 
-Description goes here.
+Fetch latest epel-release package
+
+== Installation
+
+Include in your $FOREMAN_HOME/bundler.d/epel_release.rb
+    gem 'foreman-epel_release', :git => "https://github.com/frimik/foreman-epel_release.git"
+
+As Foreman user:
+    bundle install
+
+== Usage
+
+    rpm -qip http://foreman/epel-release/6/x86_64
+    rpm -qip http://foreman/epel-release/5/i386
 
 == Contributing to foreman-epel_release
  
