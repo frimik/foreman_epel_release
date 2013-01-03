@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mikael Fridh"]
-  s.date = "2012-12-31"
-  s.description = "TODO: longer description of your gem"
+  s.date = "2013-01-03"
+  s.description = "Redirect to the latest available epel-release package for your OS release"
   s.email = "mfridh@marinsoftware.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "MIT-LICENSE",
     "README.rdoc",
@@ -26,6 +27,7 @@ Gem::Specification.new do |s|
     "VERSION",
     "app/controllers/foreman_epel_release/epel_controller.rb",
     "config/routes.rb",
+    "foreman_epel_release.gemspec",
     "init.rb",
     "install.rb",
     "lib/engine.rb",
@@ -41,7 +43,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.24"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Foreman engine plugin for epel-release package fetching"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3

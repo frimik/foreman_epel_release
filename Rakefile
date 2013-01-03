@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "foreman_epel_release"
   gem.homepage = "http://github.com/frimik/foreman_epel_release"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Foreman engine plugin for epel-release package fetching}
+  gem.description = %Q{Redirect to the latest available epel-release package for your OS release}
   gem.email = "mfridh@marinsoftware.com"
   gem.authors = ["Mikael Fridh"]
   # dependencies defined in Gemfile
