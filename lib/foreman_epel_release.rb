@@ -1,5 +1,5 @@
 # ForemanEpelRelease
 module ForemanEpelRelease
-  require 'engine' if defined?(Rails) && Rails::VERSION::MAJOR == 3
+  require 'foreman_epel_release/engine' if defined?(Rails) && Rails::VERSION::MAJOR == 3
   require 'nokogiri'
 end
