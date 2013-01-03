@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "foreman_epel_release"
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mikael Fridh"]
@@ -30,9 +30,8 @@ Gem::Specification.new do |s|
     "foreman_epel_release.gemspec",
     "init.rb",
     "install.rb",
-    "lib/engine.rb",
-    "lib/foreman-epel_release.rb",
     "lib/foreman_epel_release.rb",
+    "lib/foreman_epel_release/engine.rb",
     "test/foreman_epel_release_test.rb",
     "test/helper.rb",
     "test/test_foreman-epel_release.rb",
