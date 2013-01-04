@@ -7,14 +7,19 @@ Installation
 ------------
 
 Include in your $FOREMAN_HOME/bundler.d/foreman_epel_release.rb
+
     gem 'foreman_epel_release'
+
 Or from git:
+
     gem 'foreman_epel_release', :git => "https://github.com/frimik/foreman_epel_release.git"
 
 As Foreman user:
+
     bundle install
 
 To upgrade to newest version of the plugin:
+
     bundle update foreman_epel_release
 
 Usage
@@ -22,6 +27,7 @@ Usage
 
 Request your desired version and arch package by using wget, curl or rpm
 directly at the following URLs:
+
     rpm -qip http://foreman/epel-release/6/x86_64
     rpm -qip http://foreman/epel-release/5/i386
     rpm -Uvh http://foreman/epel-release/6/x86_64
