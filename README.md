@@ -32,6 +32,10 @@ directly at the following URLs:
     rpm -qip http://foreman/epel-release/5/i386
     rpm -Uvh http://foreman/epel-release/6/x86_64
 
+In a provisioning template, the following construct can be used:
+
+    rpm -Uvh <%= @host.os.medium_uri(@host, "http://foreman/epel-release/$major/$arch") %>
+
 Contributing to foreman_epel_release
 ------------------------------------
  
