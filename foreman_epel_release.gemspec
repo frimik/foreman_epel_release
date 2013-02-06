@@ -21,7 +21,6 @@ Gem::Specification.new do |s|
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
-    "MIT-LICENSE",
     "README.rdoc",
     "Rakefile",
     "VERSION",
@@ -39,7 +38,7 @@ Gem::Specification.new do |s|
     "uninstall.rb"
   ]
   s.homepage = "http://github.com/frimik/foreman_epel_release"
-  s.licenses = ["MIT"]
+  s.licenses = ["GPL-3"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.24"
   s.summary = "Foreman engine plugin for epel-release package fetching"
