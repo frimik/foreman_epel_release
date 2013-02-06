@@ -16,7 +16,7 @@ Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "foreman_epel_release"
   gem.homepage = "http://github.com/frimik/foreman_epel_release"
-  gem.license = "MIT"
+  gem.license = "GPL-3"
   gem.summary = %Q{Foreman engine plugin for epel-release package fetching}
   gem.description = %Q{Redirect to the latest available epel-release package for your OS release}
   gem.email = "mfridh@marinsoftware.com"
